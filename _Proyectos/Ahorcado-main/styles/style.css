@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../media/background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+body header {
+  height: 12vh;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+body header svg {
+  width: 2rem;
+}
+body main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body main #home #btns-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+body main #home #btns-home .btn {
+  padding: 1.5rem 3rem;
+  border-radius: 15px;
+  border: 3px solid black;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 900;
+  transition: 0.7s;
+}
+body main #home #btns-home #btn-startGame:hover {
+  border: 2px dashed black;
+}
+body main #home #btns-home #btn-addNewWord {
+  padding: 1rem 3rem;
+}
+body main #home #btns-home #btn-addNewWord:hover {
+  border: 2px dashed black;
+}
+body main #add-new-word {
+  display: none;
+}
+body main #game {
+  display: none;
+}
+body footer {
+  background-color: rgb(6, 6, 6);
+  height: 8vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer footer a {
+  color: white;
+  cursor: pointer;
+}
+body footer footer a:hover {
+  color: rgb(20, 245, 245);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    background-color: aquamarine;
+  }
+}/*# sourceMappingURL=style.css.map */
